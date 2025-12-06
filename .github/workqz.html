@@ -1,0 +1,333 @@
+<html lang="zh-CN">
+<head>
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="yes" name="apple-touch-fullscreen">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta content="320" name="MobileOptimized">
+  <title>官方网页</title>
+<style>
+.container {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .dot {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #000;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .dot-3 {
+        background-color: #f74d75;
+    }
+
+    .dot-2 {
+        background-color: #10beae;
+    }
+
+    .dot-1 {
+        background-color: #ffe386;
+    }
+
+    .dot-3 {
+        background-color: #f74d75;
+        animation: dot-3-move 2s ease infinite;
+    }
+
+    @keyframes dot-3-move {
+        20% {
+            transform: scale(1)
+        }
+
+        45% {
+            transform: translateY(-18px) scale(.45)
+        }
+
+        60% {
+            transform: translateY(-25px) scale(.45)
+        }
+
+        80% {
+            transform: translateY(-25px) scale(.45)
+        }
+
+        100% {
+            transform: translateY(0px) scale(1)
+        }
+    }
+
+    .dot-2 {
+        background-color: #10beae;
+        animation: dot-2-move 2s ease infinite;
+    }
+
+    .dot-1 {
+        background-color: #ffe386;
+        animation: dot-1-move 2s ease infinite;
+    }
+
+    @keyframes dot-2-move {
+        20% {
+            transform: scale(1)
+        }
+
+        45% {
+            transform: translate(-16px, 12px) scale(.45)
+        }
+
+        60% {
+            transform: translate(-20px, 15px) scale(.45)
+        }
+
+        80% {
+            transform: translate(-20px, 15px) scale(.45)
+        }
+
+        100% {
+            transform: translateY(0px) scale(1)
+        }
+    }
+
+    @keyframes dot-1-move {
+        20% {
+            transform: scale(1)
+        }
+
+        45% {
+            transform: translate(16px, 12px) scale(.45)
+        }
+
+        60% {
+            transform: translate(20px, 15px) scale(.45)
+        }
+
+        80% {
+            transform: translate(20px, 15px) scale(.45)
+        }
+
+        100% {
+            transform: translateY(0px) scale(1)
+        }
+    }
+
+    .container {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: rotate-move 2s ease-in-out infinite;
+    }
+
+    @keyframes rotate-move {
+        改变% {
+            transform: translate(-50%, -50%) rotate(0deg)
+        }
+
+        改变% {
+            transform: translate(-50%, -50%) rotate(360deg)
+        }
+
+        改变% {
+            改变: 翻译(-50%, -50%) 旋转(360deg)
+        }
+    }
+.容器 {
+        宽度: 100PX;
+        高度: 100PX;
+        位置: 绝对的;
+        顶端: 50%;
+        左: 50%;
+        改变: 翻译(-50%, -50%);
+    动画
+
+    .点 {
+        宽度: 15PX;
+        高度: 15PX;
+        改变: 50%;
+        背景色: #000;
+        位置: 绝对的;
+        顶端: 0;
+        改变: 0;
+        左: 0;
+        正确的: 0;
+        边缘: 自动;
+    }
+
+    .dot-3 {
+        背景色：#f74d75；
+    }
+
+    .dot-2 {
+        背景色：#10beae；
+    }
+
+    .dot-1 {
+        背景色：#ffe386；
+    }
+
+    .dot-3 {
+        背景色：#f74d75；
+        动画: 点-3-移动 2s 缓解 无限的;
+    }
+
+    @keyframes 点-3-移动 {
+        20% {
+            改变: 规模(1)
+        }
+
+        45% {
+            改变: translateY(-18PX) 规模(.45)
+        }
+
+        60% {
+            改变: translateY(-25PX) 规模(.45)
+        }
+
+        80% {
+            改变: translateY(-25PX) 规模(.45)
+        }
+
+        100% {
+            改变: translateY(0PX) 规模(1)
+        }
+    }
+
+    .dot-2 {
+        背景色：#10Beae；
+        动画: dot-2-move 2s 缓解 无限的;
+    }
+
+    .dot-1 {
+        背景色：#ffe386；
+        动画: 点-1-移动 2s 缓解 无限的;
+    }
+
+    @keyframes dot-2-move {
+        20% {
+            改变: 规模(1)
+        }
+
+        45% {
+            改变: 翻译(-16PX, 12PX) 规模(.45)
+        }
+
+        60% {
+            改变: 翻译(-20PX, 15PX) 规模(.45)
+        }
+
+        80% {
+            改变: 翻译(-20PX, 15PX) 规模(.45)
+        }
+
+        100% {
+            改变: translateY(0PX) 规模(1)
+        }
+    }
+
+    @keyframes 点-1-移动 {
+        20% {
+            改变: 规模(1)
+        }
+
+        45% {
+            改变: 翻译(16PX, 12PX) 规模(.45)
+        }
+
+        60% {
+            改变：翻译(20PX，15PX 规模(.45)
+        55
+
+        }% {
+            改变: 翻译(20PX, 15PX) 规模(.45)
+        }
+
+        100% {
+            改变: translateY(0PXPX 规模(1规模
+        }
+    }
+
+。容器 {
+.宽度：
+        高度: 100PX;
+        位置: 绝对的;
+        顶端: 50%;
+        左: 50%;
+        改变: 翻译(-50%, -50%);
+        动画: 旋转-移动2 S22
+    }
+
+@keyframes 旋转-移动{@keyframes 旋转-移动{{
+55%宽度55%%1515
+变变换：平移改变-50变换：平移变换：平移改变-50旋转高度旋转度-50变换：平移变换：平移改变-50旋转高度旋转度)度变换：平移改变度变换：平移变换：平移改变-50旋转(变换：平移改变-50-50变换：平移变换：平移改变)旋转高度旋转度)
+}}
+
+80%{80%%{{80%%{
+变换：平移改变-50变换：平移变换：平移改变-50旋转(旋转度)度变换：平移改变-50变换：平移变换：平移改变-50旋转，翻译变换：平移改变-50变换：平移变换：平移改变-50旋转(旋转度)度变换：平移改变-50变换：平移变换：平移改变-50旋转，翻译%旋转度: %(: %度度旋转度度度
+}}
+
+100%{100%{{100%{
+变换：平移(-50%，-50变换：平移改变旋转旋转360度改变：改变(-50%，-50%改变旋转旋转360度改变：改变(-50360度度改变：改变-50%)(%%)-50，-50%-50%%)-50%(360deg%)(360，-50)
+}}
+    }
+。内容{高度高度。内容{高度高度%；位置：固定；左：-2px；上：-2px；高度：100content.100%.100%；位置：固定；左：-2px；上：-2px；高度：100content%；宽度：宽度%高度%；宽度：宽度{高度%；位置：固定；左：-2px；上：-2px；：内容内容：内容内容；位置：高度-2 PX固定；左：-2px；上：-2px；高度：100content.100%.100%；位置：固定；左：-2px；上：-2px；高度：100content%；宽度：宽度%高度%；宽度：宽度{高度%；位置：固定；左：-2px；上：-2px；:内容内容:内容内容;位置：高度-2 PX
+</
+
+
+。
+
+
+<身体>身体>
+
+<div 班级="容器">
+<div 班级="点点-1"></div>
+<div 班级="点点-2"></div>
+。
+</div>
+<脚本>
+Varvar urlParams=新URLSearchParams(窗户.位置.搜索窗户；urlParams=位置搜索(窗户.位置.搜索;URLSearchParams
+Varvar encodedParam=urlParams.得到'C')；encodedParam=URLP阿拉姆.get('C');
+Varvar tureurl=atob(encodedParam)；tureurl=atob(EncodedParam);
+Ifif(tureurl.包括("http")){(tureurl.包括包括"http")) {
+Varvar 广场=文件.getElementByIdgetElementById"容器")；正方形=文件.getElementById("容器");
+setTimeoutsetTimeout函数(功能setTimeout(函数)){{
+广场.风格.显示=显示；广场="无".显示="无";
+}}，);1500);
+var 超文本标记语言='<iframe class="content"οonload="bindMouseWhee(this)"src='+tureurl+tureurl；var+'></iframe>'='<iframe class="content"onload="bindMouseWhee(this)"src='+tureurl+'></iframe>';
+文件.writeeln文件html超文本标记语言；文件.；文档.writeln
+控制台控制台.日志tureurltururl；log(tureurl);
+}}其他{其他 {
+控制台.日志控制台"nurls")；控制台.log日志"滋养""滋养".日志
+}
+</脚本>
+<脚本>
+Varvar 火狐浏览器=领航员.UserAgent.indexOfindexOf'Firefox')！！=-；fireFOX=用户代理人.indexOf('Firefox')!= -1;
+功能功能鼠标滚轮功能E，doc){鼠标轮鼠标轮e功能功能鼠标滚轮(E，doc{
+e.preventDefault&&e.preventDefaulte)，e.returnValue=false；e.preventDefault&&e.preventDefaultreturnValue),e.returnValue=假的;
+var 向上=火狐浏览器&&e.细节<0||e<wh赫耳塔||e向上=火狐浏览器.e<0||细节<细节0E||e>0wheelDelta> 0;火狐浏览器&&e.细节< 0 ||e.wheelDelta> 0;
+doc医生.身体.scrollTop=医生.50.+=documentElementdocumentElement+=scrollTop:50=向上？-50；docdocumentElement:50；docdocumentElement=身体。scrollTop=医生.documentElement.scrollTop+=向上？-50:50；主体=scrollTop=医生.documentElement.documentElement+=向上？-50:50；doc:50身体=身体=医生.
+}
+功能函数bindMouseWhee功能函数bindMouseWheeIFR){bindMouseWhee(IFR){
+尝试{尝试{
+Varvar 医生=IFR.contentWindow.文档；var 医生=IFR.contentWindow.文档；文档=IFR.contentWindow.文档；var 医生=IFR.contentWindow.文件;
+火狐浏览器？医生。addEventListener('DOMMouseScroll'火狐浏览器？医生。addEventListener(e，函数(e){鼠标轮(E，doc)}，false)：(做c：onmousewheel做c.onmousewheel做ce){鼠标轮.(=e.onmousewheel}鼠标轮；火狐浏览器？医生。addEventListener；火狐||鼠标轮.EE.)鼠标轮；火狐浏览器？医生。addEventListener；火狐鼠标轮；火狐浏览器？医生。addEventListener；火狐)||鼠标轮.ContentWindow？Doc'DOMMouseScroll')||IContentWindow？Doc'DOMMouseScroll'？做cCE，doc'DOMMouseScroll'火狐？医生。addEventListener；火狐.'DOMMouseScroll')火狐？医生。addEventListener；火狐'DOMMouseScroll'}，false)||IFRE(？做cComponentWindowe){鼠标轮事件，文档e鼠标轮ifr火狐？医生。addEventListener(，函数}带do的EcmouseWheel事件，文档e鼠标轮ifr火狐？医生。addEventListener火狐？医生。addEventListener；火狐='DOMMouseScroll'？火狐？医生。addEventListener；火狐'DOMMouseScroll'，false鼠标轮鼠标轮(，false(，函数)=addEventListenerMouseWheele,E，doc)||IFRdoc.，false.事件，文档(e鼠标轮ifr火狐？医生。addEventListener){，错误？医生.addEventListenerMouseWheel=函数}带do的Ec=
+}渔获物(e){}赶上(e){
+警惕的('跨域无法获取iframe加载文件'警惕的('跨域无法获取iframe加载文件'+E)；警报('跨域无法获取iframe加载文件''跨域无法获取iframe加载文件'+e)；e)；警报('跨域无法获取iframe加载文件'+e)；e)；e)；警报('跨域无法获取iframe加载文件'+e);
+}}
+}
+
+
+</
